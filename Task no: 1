@@ -9,6 +9,8 @@ public class GradeCalc {
         // save student name form user
         System.out.println("Enter Student Name:");
         String studentName = Scan.nextLine();
+        System.out.println("Register No:");
+        String registerNo = Scan.nextLine();
 
         // Enter total number of subject to calculate their marks
         System.out.println("Enter the Total number of subject");
@@ -28,6 +30,7 @@ public class GradeCalc {
         System.out.println("student result:");
         // saved student name print status:
         System.out.println("StudentName:" + studentName);
+        System.out.println("Register No:" + registerNo);
         System.out.println("Total marks obtained in all subject:" + totalMarks);
         // calculate Average Percentage:divide the total marks by the total number
         // of subject to get the average percentage.
