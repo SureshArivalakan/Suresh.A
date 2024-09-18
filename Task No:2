@@ -1,0 +1,40 @@
+//CODTECH IT SOLUTION TASK NO:02;
+import java.util.Scanner;
+public class Calculator {
+    public static void main(String[] args) {
+        int operator,n1,n2;
+        System.out.println("1 - Add\n 2 - Subtract \n 3 - Multiple \n 4 - divide");
+        System.out.println("choose operator :");
+        Scanner scan = new Scanner(System.in);
+        operator=scan.nextInt();
+        System.out.println("Enter first number");
+        n1 = scan.nextInt();
+        System.out.println("Enter Second number ");
+        n2 = scan.nextInt();
+        int result=0;
+        switch (operator) {
+            case 1:
+                result= n1+n2;
+                break;
+
+            case 2:
+                result = n1 - n2;
+                break;
+
+            case 3:
+                result = n1 * n2;
+                break;
+
+            case 4:
+                result = n1 /n2;
+                break;
+            default:
+                System.out.println("Entered Opertaor is not valid");
+        }
+        System.out.println("Result is :"+ result);
+
+    }
+}
+
+
+
