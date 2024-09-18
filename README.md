@@ -28,8 +28,27 @@ This Java program calculates a student's grade based on their marks in multiple 
 ### Note:<br> 
 This program uses a simple grading system and does not take into account other factors that may affect a student's grade.
 
+
 ### Contributing:
 
 If you'd like to contribute to this project, feel free to submit a pull request or open an issue to discuss potential improvements or features.
+<br>
+<br>
+<br>
 
+## Overview of the Project 
+**Project 2:**
+Simple Calculator
+
+
+### Description: <br>
+A basic command-line calculator built in Python that performs arithmetic operations.
+
+
+### Features:
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
 
