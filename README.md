@@ -21,9 +21,10 @@ This Java program calculates a student's grade based on their marks in multiple 
 ### How to use: <br>
 
 1. Run the program and enter the student's name when prompted.
-2. Enter the total number of subjects.
-3. Enter the marks for each subject (out of 100).
-4. The program will display the student's result.
+2. Enter the student's register number.
+3. Enter the total number of subjects.
+4. Enter the marks for each subject (out of 100).
+5. The program will display the student's result.
 
 ### Note:<br> 
 This program uses a simple grading system and does not take into account other factors that may affect a student's grade.
